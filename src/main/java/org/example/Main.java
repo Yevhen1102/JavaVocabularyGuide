@@ -6,14 +6,13 @@ package org.example;
 Multi line comment
  */
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Main {
         public static void main(String[] args) {
-//        task1();
+        task1();
         task2();
-//        task3();
+        task3();
         }
     private static void task1(){
         System.out.println("TASK_1");
@@ -25,7 +24,7 @@ public class Main {
         System.out.println("строковый = " + b);
         //символьный
         char c = '#';
-        System.out.println("символьный = " + c);;
+        System.out.println("символьный = " + c);
         //целочисленный 2-й
         int d = 0b1111001;
         System.out.println("целочисленный 2-й = " + d);
